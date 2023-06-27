@@ -1,0 +1,180 @@
+/*HEADER*/
+.icon-back{
+    width: 25px;
+}
+.logo-pequena{
+    width: 60px;
+}
+.section-header{
+    display: flex;
+    flex-direction: column;
+}
+.logo-and-iconback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px 10px 0px;
+}
+.titulo{
+    text-align: center;
+    font-weight: normal;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title-menu {
+    color: white;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.button-breakfast-day {
+    background-color: #544D4D;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-breakfast-day:hover {
+    background-color: black;
+    transition: 1s;
+}
+.produtos-relacionados {
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+}
+.produtos-relacionados ul {
+    list-style-type: none;
+    padding: 0;
+}
+.produtos-relacionados li {
+    border-bottom:1px solid black;
+    padding: 10px;
+}
+.produto-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.produto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 30px;
+}
+.produto-nome {
+    display: flex;
+    justify-content: space-between;
+}
+.produto-preco {
+    display: flex;
+    justify-content: space-between;
+}
+.produtos-relacionados button {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border: none;
+    /* clip-path: ellipse(50% 30%); */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-quantidade {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+.btn-quantidade > button {
+    font-size: 25px;
+}
+.btn-add-pedido {
+    width: 300px;
+    height: 50px;
+    background-color: #FF7D7D;
+    color: white;
+    font-size: 25px;
+    font-family: verdana;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* dropdown */
+.container-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.color-white-and-border{
+    background-color: #2DBF63;
+    border: #544D4D solid 1px;
+    border-radius: 5px;
+}
+.arrow-icon{
+    margin: 0px 0px 0px 10px;
+}
+.btn-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+}
+.list-dropdown{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.list-dropdown > li{
+    padding: 5px;
+    cursor: pointer;
+}
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.select-table{
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+}
+.list-dropdown li:hover {
+    background-color: black;
+}
+.list-dropdown li.selected {
+    background-color: #2DBF63;
+    color: white;
+}
+  
