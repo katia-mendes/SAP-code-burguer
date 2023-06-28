@@ -66,49 +66,164 @@
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "name": "Agua 500ml",
-      "price": 500,
+      "name": "Suco de laranja",
+      "price": 12,
       "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 1
+    },
+    {
+      "name": "Misto quente",
+      "price": 10,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 2
+    },
+    {
+      "name": "Pão de queijo",
+      "price": 2.5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 3
+    },
+    {
+      "name": "Croissant",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
       "id": 4
     },
     {
-      "name": "Agua 500ml",
+      "name": "X-egg",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 5
+    },
+    {
+      "name": "X-dog",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 6
+    },
+    {
+      "name": "Água 500ml",
       "price": 5,
       "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Menu do dia",
-      "id": 5
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 7
+    },
+    {
+      "name": "Sucos polpa",
+      "price": 8,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 8
     },
     {
       "name": "Refrigerante 500ml",
       "price": 10,
       "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Menu do dia",
-      "id": 6
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 9
+    },
+    {
+      "name": "X-code tudo",
+      "price": 30,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 10
+    },
+    {
+      "name": "X-javascript",
+      "price": 35,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 11
+    },
+    {
+      "name": "X-html",
+      "price": 25,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 12
+    },
+    {
+      "name": "X-css",
+      "price": 25,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 13
+    },
+    {
+      "name": "Sobremesa react",
+      "price": 20,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 14
+    },
+    {
+      "name": "Água 500ml",
+      "price": 5,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 15
+    },
+    {
+      "name": "Sucos polpa",
+      "price": 8,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 16
+    },
+    {
+      "name": "Suco de laranja",
+      "price": 12,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 17
+    },
+    {
+      "name": "Refrigerante 500ml",
+      "price": 10,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 18
+    },
+    {
+      "name": "Milk shake firebase",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Menu do Dia",
+      "quantity": 0,
+      "id": 19
+    },
+    {
+      "name": "Milk shake firebase",
+      "price": 15,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+      "type": "Café da Manhã",
+      "quantity": 0,
+      "id": 20
     }
   ],
   "users": [
@@ -135,6 +250,12 @@
       "password": "$2a$10$IxNZCNzMuSywlQLrN0qaaenUKPAuu6cDarEKL74mERZSMpiEKIcOy",
       "role": "admin",
       "id": 4
+    },
+    {
+      "email": "garcom@codeburger.com",
+      "password": "$2a$10$b0NdwSzO1PRjEqIYUKds5eHv.Kty.4lfmtQyGo44bLPBM2QWMrQPa",
+      "role": "waiter",
+      "id": 5
     }
   ]
 }
