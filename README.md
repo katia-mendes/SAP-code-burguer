@@ -57,6 +57,15 @@ Nesta mesma tela também tem um botão de "enviar pedido", onde o pedido será e
 
 ![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/e4731bab-0c99-4f14-aead-562293f137ce)
 
+### 4. Authors:
+
+* [Bruna Silveira](https://github.com/Bru-Silveira)
+* [Katia Mendes](https://github.com/katia-mendes)
+* [Tamires Nascimento](https://github.com/tamiresns).
+
+***
+
+Em construção... :construction:
 
 
 
