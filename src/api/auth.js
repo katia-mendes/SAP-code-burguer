@@ -1,6 +1,6 @@
 export function login(email,password){
   //chamando a API
-    return fetch('https://burger-queen-api-mock-gules.vercel.app', {
+    return fetch('https://burger-queen-api-mock-gules.vercel.app/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
