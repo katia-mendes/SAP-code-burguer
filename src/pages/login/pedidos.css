@@ -21,7 +21,7 @@
     width: 250px;
     height: 250px;
 }
-button {
+.btn-pedidos {
     background-color: white;
     width: 120px;
     height: 120px;
@@ -32,7 +32,6 @@ button {
 button img{
     background-color: white;
 }
-
 .button-pedidos {
     display: flex;
     flex-direction: row;
@@ -41,11 +40,10 @@ button img{
 .btn-pedido {
     background-color: white;
     text-decoration: none;
-    color: brown;
+    color: black;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 18px;
 }
-
 .icone-mais {
     padding: 15px;
 }

@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# <div align="center"> codeBurger </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center"> <img src= "src/img/burger.png" width ="300px" height = "300px"/></div>
 
-## Available Scripts
+## 1. Resumo do Projeto
 
-In the project directory, you can run:
+Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
+interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
+para a cozinha para que sejam preparados de forma ordenada e eficiente. Este projeto 
+tem duas áreas: interface (cliente) e API (servidor). Nosso cliente nos pediu para 
+desenvolver uma interface que se integre com a API. Estamos construindo essa interface 
+web usando o framework React e fazendo essa integração com a API.
 
-### `npm start`
+## 2. Objetivos de Aprendizagem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* HTML
+* CSS
+* Javascript
+* React
+* Git e Github
+* Figma
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. Histórias de Usuários
 
-### `npm test`
+#### História de usuário 1 - Garçom/Garçonete deve poder entrar no sistema, caso o admin já lhe tenha dado as credenciais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Eu, como garçom/garçonete quero entrar no sistema de pedidos
 
-### `npm run build`
+Nesta tela o/a garçom/garçonete consegue acesssar o sistema com as credenciais corretas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/e47c607c-1caa-4fb9-857c-8d2253555f70)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Neste print ilustramos um dos possíveis erros caso o/a garçom/garçonete digite as credenciais incorretas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/09a18c76-a7f7-49e8-b4f9-3f4a991fe2fc)
 
-### `npm run eject`
+Testes unitários:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![testes](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/5f49dbc4-7ded-4b92-956a-4775ee20da98)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### História de usuário 2 - Garçom/Garçonete deve ser capaz de anotar o pedido do cliente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##### Eu como garçom/garçonete quero poder anotar o pedido de um cliente para não depender da minha memória, saber quanto cobrar e poder enviar os pedidos para a cozinha para serem preparados em ordem.
 
-## Learn More
+Nesta tela o/a garçom/garçonete consegue selecionar o número da mesa, adicionar os produtos ao pedido, excluir produtos e adicionar o pedido:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/78821253-331e-4338-83b2-8b4cc14eb388)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/99e16bd1-9413-4525-81f6-5c3ddfbea1e7)
 
-### Code Splitting
+Nesta tela o/a garçom/garçonete consegue visualizar o resumo do pedido, o valor total da compra e pode também clicar no botão "voltar" caso o cliente mude de ideia e decida excluir algum dos produtos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/91fb4f7e-1ab2-4bef-8e65-6f7554bea120)
 
-### Analyzing the Bundle Size
+Nesta mesma tela também tem um botão de "enviar pedido", onde o pedido será enviado para a cozinha para preparo, e também é salvo num banco de dados:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/Bru-Silveira/SAP-code-burguer/assets/122562513/e4731bab-0c99-4f14-aead-562293f137ce)
 
-### Making a Progressive Web App
+### 4. Authors:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [Bruna Silveira](https://github.com/Bru-Silveira)
+* [Katia Mendes](https://github.com/katia-mendes)
+* [Tamires Nascimento](https://github.com/tamiresns).
 
-### Advanced Configuration
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Em construção... :construction:
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+

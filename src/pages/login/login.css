@@ -1,12 +1,13 @@
-*{
+.login-container{
     background-color: #544D4D;
     color: white;
 }
-
-div > h1 > .title{
-    color: black;
+.my-logo{
+    width: 250px;
 }
-
+div > h1 > .title{
+    color: white;
+}
 .grid-container{
     position: fixed;
     width: 100%;
@@ -16,7 +17,6 @@ div > h1 > .title{
     justify-content: center;
     align-items: center;
 }  
-
 Input{
     min-width: 300px;
     font-size: 16px;
@@ -25,15 +25,17 @@ Input{
     border: solid white 1px;
     border-radius: 5px;
 }
-
 Input::placeholder {
     font-style: italic;
-  }
-
+}
 .button-main{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
     min-width: 304px;
     height: 43px;
     border-radius: 5px;
-    margin: 20px 0px;
-
+    border: none;
+    cursor: pointer;
 }
