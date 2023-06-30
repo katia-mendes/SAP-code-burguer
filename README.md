@@ -2,7 +2,8 @@
 
 <div align="center"> <img src= "src/img/burger.png" width ="300px" height = "300px"/></div>
 
-## 1. Resumo do Projeto [Acesso a aplicação:](https://sap-code-burguer-nine.vercel.app/)
+## 1. Resumo do Projeto 
+[Acesso a aplicação:](https://sap-code-burguer-nine.vercel.app/)
 
 
 Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
@@ -26,6 +27,8 @@ web usando o framework React e fazendo essa integração com a API.
 #### História de usuário 1 - Garçom/Garçonete deve poder entrar no sistema, caso o admin já lhe tenha dado as credenciais
 
 ##### Eu, como garçom/garçonete quero entrar no sistema de pedidos
+Email : garcom@codeburger.com
+senha: 123456
 
 Nesta tela o/a garçom/garçonete consegue acesssar o sistema com as credenciais corretas:
 
